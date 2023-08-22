@@ -1,0 +1,35 @@
+# Build and compilation artifacts
+*.o
+*.so
+*.dylib
+*.dll
+*.a
+*.exe
+build/
+dist/
+
+# SWI-Prolog temporary files
+*.qlf
+*.prc
+*~
+.#*
+
+# Python virtual environment and cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+*.egg-info/
+.venv/
+env/
+
+# System and editor files
+.DS_Store
+*.swp
+.idea/
+.vscode/
+
+# Test output and temporary runs
+tmp/
+*.log
