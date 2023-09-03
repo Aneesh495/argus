@@ -40,9 +40,13 @@ $(BUILD_DIR)/argus_ffi.o: $(SRC_DIR)/argus_ffi.c include/argus/argus_ffi.h | $(B
 $(FFI_LIB): $(BUILD_DIR)/argus_ffi.o | $(LIB_DIR)
 	$(CC) $(LDFLAGS_SHARED) $< -o $@
 
-test: test-style test-unit test-integration test-regression test-python
+test: test-style test-c test-unit test-integration test-regression test-python
 
-test-style:
+test-c: $(BUILD_DIR)/test_ffi
+	./$(BUILD_DIR)/test_ffi
+
+$(BUILD_DIR)/test_ffi: $(SRC_DIR)/argus_ffi.c tests/unit/test_ffi.c | $(BUILD_DIR)
+	$(CC) $(CFLAGS) -I$(PLINCDIR) $^ -L$(PLLIBDIR) $(PLLIB) -o $@
 	$(PYTHON) scripts/check_no_em_dash.py
 	$(SWIPL) -g "consult('tests/structural/test_code_style.pl'), run_style_tests, halt." -t "halt(1)"
 
