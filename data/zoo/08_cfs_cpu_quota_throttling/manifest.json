@@ -1,0 +1,6 @@
+{
+  "id": "08_cfs_cpu_quota_throttling",
+  "title": "Linux CFS CPU Quota Throttling Causing Microservice Brownout",
+  "expected_fault": "cgroup_resource_throttling",
+  "expected_service": "image-processing-service"
+}

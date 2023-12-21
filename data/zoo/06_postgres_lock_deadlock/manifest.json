@@ -1,0 +1,6 @@
+{
+  "id": "06_postgres_lock_deadlock",
+  "title": "PostgreSQL Row Lock Contention and Deadlock Cycle",
+  "expected_fault": "database_lock_contention",
+  "expected_service": "postgres-db"
+}

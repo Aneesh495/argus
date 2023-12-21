@@ -1,0 +1,6 @@
+{
+  "id": "03_kafka_consumer_lag",
+  "title": "Kafka Partition Rebalance Stall and Consumer Lag Saturation",
+  "expected_fault": "queue_saturation",
+  "expected_service": "order-consumer"
+}

@@ -1,0 +1,1 @@
+container_cpu_cfs_throttled_periods_total{service="image-processing-service"} 120.0 1700000085000

@@ -1,0 +1,1 @@
+{"timestamp": 1700000015450, "level": "ERROR", "service": "inventory-db", "message": "ConnectionPoolTimeoutException: HikariPool - Connection is not available", "trace_id": "trace_pool_02", "span_id": "db_query_01"}

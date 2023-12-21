@@ -1,0 +1,6 @@
+{
+  "id": "04_gc_pause_heartbeat_timeout",
+  "title": "Stop-The-World JVM Garbage Collection Pause Causing Lease Eviction",
+  "expected_fault": "gc_pause",
+  "expected_service": "auth-service"
+}

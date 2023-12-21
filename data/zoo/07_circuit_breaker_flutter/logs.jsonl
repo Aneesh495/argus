@@ -1,0 +1,1 @@
+{"timestamp": 1700000070010, "level": "WARN", "service": "recommendation-service", "message": "CircuitBreaker tripped to OPEN due to slow call threshold", "trace_id": "trace_cb_07", "span_id": "rec_root"}

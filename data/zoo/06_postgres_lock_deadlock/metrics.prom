@@ -1,0 +1,1 @@
+pg_stat_activity_waiting_locks{service="postgres-db"} 48.0 1700000065000

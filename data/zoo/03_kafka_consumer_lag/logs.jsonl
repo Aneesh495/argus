@@ -1,0 +1,1 @@
+{"timestamp": 1700000025000, "level": "WARN", "service": "order-consumer", "message": "Max poll interval exceeded; consumer group rebalance in progress", "trace_id": "trace_queue_03", "span_id": "cons_root"}

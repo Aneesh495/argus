@@ -1,0 +1,1 @@
+{"timestamp": 1700000092000, "level": "WARN", "service": "catalog-db", "message": "Thundering herd on cache key hot_category_electronics", "trace_id": "trace_stampede_09", "span_id": "cache_root"}

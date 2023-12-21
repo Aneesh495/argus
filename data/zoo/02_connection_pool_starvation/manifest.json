@@ -1,0 +1,6 @@
+{
+  "id": "02_connection_pool_starvation",
+  "title": "HikariCP Connection Pool Exhaustion on Inventory Database",
+  "expected_fault": "connection_pool_starvation",
+  "expected_service": "inventory-db"
+}

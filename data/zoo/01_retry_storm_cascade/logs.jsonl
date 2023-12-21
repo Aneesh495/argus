@@ -1,0 +1,1 @@
+{"timestamp": 1700000002350, "level": "ERROR", "service": "api-gateway", "message": "Downstream payment service retry budget exhausted", "trace_id": "trace_retry_01", "span_id": "gw_root"}

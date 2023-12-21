@@ -1,0 +1,1 @@
+pool_active_connections{service="inventory-db"} 1.0 1700000015000

@@ -1,0 +1,1 @@
+{"timestamp": 1700000065800, "level": "ERROR", "service": "postgres-db", "message": "deadlock detected: Process 9182 and Process 9184 blocked each other", "trace_id": "trace_lock_06", "span_id": "txn_root"}

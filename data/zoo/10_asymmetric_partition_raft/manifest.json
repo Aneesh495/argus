@@ -1,0 +1,6 @@
+{
+  "id": "10_asymmetric_partition_raft",
+  "title": "Asymmetric Transit Loss and Raft Majority Quorum Election Loop",
+  "expected_fault": "network_partition",
+  "expected_service": "consensus-etcd"
+}

@@ -1,0 +1,1 @@
+{"timestamp": 1700000054800, "level": "ERROR", "service": "search-service", "message": "RejectedExecutionException: Thread pool exhausted; all threads are busy", "trace_id": "trace_thread_05", "span_id": "search_root"}

@@ -1,0 +1,47 @@
+{
+  "resourceSpans": [
+    {
+      "resource": {
+        "attributes": [
+          {
+            "key": "service.name",
+            "value": {
+              "stringValue": "order-consumer"
+            }
+          }
+        ]
+      },
+      "scopeSpans": [
+        {
+          "spans": [
+            {
+              "traceId": "trace_queue_03",
+              "spanId": "cons_root",
+              "parentSpanId": "",
+              "name": "processOrderEvent",
+              "startTimeUnixNano": "1700000020000000000",
+              "endTimeUnixNano": "1700000030000000000",
+              "status": {
+                "code": "STATUS_CODE_OK"
+              },
+              "attributes": [
+                {
+                  "key": "messaging.system",
+                  "value": {
+                    "stringValue": "kafka"
+                  }
+                },
+                {
+                  "key": "messaging.queue_lag_ms",
+                  "value": {
+                    "intValue": 12500
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

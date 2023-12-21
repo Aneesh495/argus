@@ -1,0 +1,1 @@
+kafka_consumer_lag_records{consumergroup="order-consumer"} 45000.0 1700000030000

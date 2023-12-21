@@ -1,0 +1,6 @@
+{
+  "id": "09_cache_stampede_thundering_herd",
+  "title": "Hot-Key Redis Expiration Causing Origin Database Thundering Herd",
+  "expected_fault": "cache_stampede",
+  "expected_service": "catalog-db"
+}

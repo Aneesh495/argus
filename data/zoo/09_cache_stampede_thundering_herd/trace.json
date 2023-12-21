@@ -1,0 +1,180 @@
+{
+  "resourceSpans": [
+    {
+      "resource": {
+        "attributes": [
+          {
+            "key": "service.name",
+            "value": {
+              "stringValue": "catalog-db"
+            }
+          }
+        ]
+      },
+      "scopeSpans": [
+        {
+          "spans": [
+            {
+              "traceId": "trace_stampede_09",
+              "spanId": "cache_root",
+              "parentSpanId": "",
+              "name": "getProductListing",
+              "startTimeUnixNano": "1700000090000000000",
+              "endTimeUnixNano": "1700000095000000000",
+              "status": {
+                "code": "STATUS_CODE_OK"
+              },
+              "attributes": [
+                {
+                  "key": "cache.hit",
+                  "value": {
+                    "boolValue": false
+                  }
+                },
+                {
+                  "key": "cache.key",
+                  "value": {
+                    "stringValue": "hot_category_electronics"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "trace_stampede_09",
+              "spanId": "db_query_1",
+              "parentSpanId": "cache_root",
+              "name": "SELECT * FROM products WHERE category = ?",
+              "startTimeUnixNano": "1700000090101000000",
+              "endTimeUnixNano": "1700000094001000000",
+              "status": {
+                "code": "STATUS_CODE_OK"
+              },
+              "attributes": [
+                {
+                  "key": "db.query_parameter",
+                  "value": {
+                    "stringValue": "hot_category_electronics"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "trace_stampede_09",
+              "spanId": "db_query_2",
+              "parentSpanId": "cache_root",
+              "name": "SELECT * FROM products WHERE category = ?",
+              "startTimeUnixNano": "1700000090102000000",
+              "endTimeUnixNano": "1700000094002000000",
+              "status": {
+                "code": "STATUS_CODE_OK"
+              },
+              "attributes": [
+                {
+                  "key": "db.query_parameter",
+                  "value": {
+                    "stringValue": "hot_category_electronics"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "trace_stampede_09",
+              "spanId": "db_query_3",
+              "parentSpanId": "cache_root",
+              "name": "SELECT * FROM products WHERE category = ?",
+              "startTimeUnixNano": "1700000090103000000",
+              "endTimeUnixNano": "1700000094003000000",
+              "status": {
+                "code": "STATUS_CODE_OK"
+              },
+              "attributes": [
+                {
+                  "key": "db.query_parameter",
+                  "value": {
+                    "stringValue": "hot_category_electronics"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "trace_stampede_09",
+              "spanId": "db_query_4",
+              "parentSpanId": "cache_root",
+              "name": "SELECT * FROM products WHERE category = ?",
+              "startTimeUnixNano": "1700000090104000000",
+              "endTimeUnixNano": "1700000094004000000",
+              "status": {
+                "code": "STATUS_CODE_OK"
+              },
+              "attributes": [
+                {
+                  "key": "db.query_parameter",
+                  "value": {
+                    "stringValue": "hot_category_electronics"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "trace_stampede_09",
+              "spanId": "db_query_5",
+              "parentSpanId": "cache_root",
+              "name": "SELECT * FROM products WHERE category = ?",
+              "startTimeUnixNano": "1700000090105000000",
+              "endTimeUnixNano": "1700000094005000000",
+              "status": {
+                "code": "STATUS_CODE_OK"
+              },
+              "attributes": [
+                {
+                  "key": "db.query_parameter",
+                  "value": {
+                    "stringValue": "hot_category_electronics"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "trace_stampede_09",
+              "spanId": "db_query_6",
+              "parentSpanId": "cache_root",
+              "name": "SELECT * FROM products WHERE category = ?",
+              "startTimeUnixNano": "1700000090106000000",
+              "endTimeUnixNano": "1700000094006000000",
+              "status": {
+                "code": "STATUS_CODE_OK"
+              },
+              "attributes": [
+                {
+                  "key": "db.query_parameter",
+                  "value": {
+                    "stringValue": "hot_category_electronics"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "trace_stampede_09",
+              "spanId": "db_query_7",
+              "parentSpanId": "cache_root",
+              "name": "SELECT * FROM products WHERE category = ?",
+              "startTimeUnixNano": "1700000090107000000",
+              "endTimeUnixNano": "1700000094007000000",
+              "status": {
+                "code": "STATUS_CODE_OK"
+              },
+              "attributes": [
+                {
+                  "key": "db.query_parameter",
+                  "value": {
+                    "stringValue": "hot_category_electronics"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

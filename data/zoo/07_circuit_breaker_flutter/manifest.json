@@ -1,0 +1,6 @@
+{
+  "id": "07_circuit_breaker_flutter",
+  "title": "Circuit Breaker Rapid Flapping Under Transient Load",
+  "expected_fault": "circuit_breaker_flapping",
+  "expected_service": "recommendation-service"
+}

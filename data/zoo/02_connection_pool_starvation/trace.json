@@ -1,0 +1,59 @@
+{
+  "resourceSpans": [
+    {
+      "resource": {
+        "attributes": [
+          {
+            "key": "service.name",
+            "value": {
+              "stringValue": "inventory-db"
+            }
+          }
+        ]
+      },
+      "scopeSpans": [
+        {
+          "spans": [
+            {
+              "traceId": "trace_pool_02",
+              "spanId": "inv_root",
+              "parentSpanId": "",
+              "name": "GET /inventory/SKU-9921",
+              "startTimeUnixNano": "1700000010000000000",
+              "endTimeUnixNano": "1700000015500000000",
+              "status": {
+                "code": "STATUS_CODE_ERROR"
+              },
+              "attributes": []
+            },
+            {
+              "traceId": "trace_pool_02",
+              "spanId": "db_query_01",
+              "parentSpanId": "inv_root",
+              "name": "SELECT stock FROM inventory WHERE sku = ?",
+              "startTimeUnixNano": "1700000010100000000",
+              "endTimeUnixNano": "1700000015400000000",
+              "status": {
+                "code": "STATUS_CODE_ERROR"
+              },
+              "attributes": [
+                {
+                  "key": "pool.wait_time_ms",
+                  "value": {
+                    "intValue": 5200
+                  }
+                },
+                {
+                  "key": "error.message",
+                  "value": {
+                    "stringValue": "ConnectionPoolTimeoutException: Timeout waiting for connection from pool"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

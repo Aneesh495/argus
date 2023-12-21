@@ -1,0 +1,1 @@
+{"timestamp": 1700000104500, "level": "FATAL", "service": "consensus-etcd", "message": "Lost majority quorum; Raft election timeout triggered repeated candidate loops", "trace_id": "trace_raft_10", "span_id": "etcd_root"}

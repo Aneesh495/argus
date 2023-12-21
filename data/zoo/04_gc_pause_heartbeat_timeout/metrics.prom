@@ -1,0 +1,1 @@
+jvm_gc_pause_seconds{service="auth-service"} 4.1 1700000044000

@@ -1,0 +1,6 @@
+{
+  "id": "05_thread_pool_exhaustion",
+  "title": "Worker Thread Pool Starvation and Task Queue Overflow",
+  "expected_fault": "thread_pool_exhaustion",
+  "expected_service": "search-service"
+}

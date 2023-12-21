@@ -1,0 +1,6 @@
+{
+  "id": "01_retry_storm_cascade",
+  "title": "Cascading Retry Storm in Payment Gateway",
+  "expected_fault": "retry_storm",
+  "expected_service": "api-gateway"
+}

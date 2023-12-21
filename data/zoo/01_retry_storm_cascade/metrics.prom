@@ -1,0 +1,1 @@
+http_requests_total{service="api-gateway",status="504"} 1420.0 1700000002000
